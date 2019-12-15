@@ -1,0 +1,341 @@
+00:45:17.552 Xcode[32829:3370604] Beginning test session ServerSwiftTests-D424ACEE-0320-4D78-900E-804F3B699DC9 at 2019-12-16 00:45:17.551 with Xcode 11C29 on target <DVTiPhoneSimulator: 0x7f919a069cd0> {
+		SimDevice: iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Shutdown)
+} (13.3 (17C45))
+00:45:17.552 Xcode[32829:3370604] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:45:17.555 Xcode[32829:3370604] Test standard output and standard error is at /Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Logs/Test/Test-ServerSwift-Package-2019.12.16_00-45-06-+0900.xcresult/Staging/1_Test/Diagnostics/ServerSwiftTests-8FEFED3E-182D-4043-9A20-7F0890C15B3D/ServerSwiftTests-3F67D173-6DA2-4C56-BC48-607BD96859CF/StandardOutputAndStandardError.txt
+00:45:18.033 Xcode[32829:3371887] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.182 Xcode[32829:3370604] 74B34A3E-828A-4203-8E54-E08073D6280E: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+00:45:18.182 Xcode[32829:3370604] 74B34A3E-828A-4203-8E54-E08073D6280E: Received sim device notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.182 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.183 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.184 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.184 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.184 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.184 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:45:18.308 Xcode[32829:3372491] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.386 Xcode[32829:3370604] 74B34A3E-828A-4203-8E54-E08073D6280E: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+00:45:18.386 Xcode[32829:3370604] 74B34A3E-828A-4203-8E54-E08073D6280E: Received sim device notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.387 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.388 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.389 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.389 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.389 Xcode[32829:3370604] /Users/fumiyatanaka/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 11 Pro (74B34A3E-828A-4203-8E54-E08073D6280E, iOS 13.3, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:45:18.854 Xcode[32829:3370604] Sending notification: NSConcreteNotification 0x7f919c6f6450 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "74B34A3E-828A-4203-8E54-E08073D6280E";
+}}
+00:45:18.856 Xcode[32829:3372080] 📱<DVTiPhoneSimulator (0x7f919a069cd0), iPhone 11 Pro, unknown class, 13.3 (17C45), 74B34A3E-828A-4203-8E54-E08073D6280E> claim LaunchSessionClaim_0x7f919cb22ed0 on simulator was issued, 2 claims exist.
+00:45:18.858 Xcode[32829:3370604] Setting up test runner session
+00:45:18.858 Xcode[32829:3371976] Sim iPhone 11 Pro: Unregistering for sim device notification with token 5
+00:45:18.858 Xcode[32829:3371976] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:45:18.859 Xcode[32829:3370604] Registering/updating daemon-based crash report observer for process names (
+    backboardd,
+    SpringBoard,
+    xctest
+)
+00:45:18.859 Xcode[32829:3371976] Sim iPhone 11 Pro has testmanagerd socket at /private/tmp/com.apple.launchd.dQFjSbzbQM/com.apple.testmanagerd.unix-domain.socket
+00:45:18.859 Xcode[32829:3371976] Validating test connection socket path (/private/tmp/com.apple.launchd.dQFjSbzbQM/com.apple.testmanagerd.unix-domain.socket)
+00:45:18.859 Xcode[32829:3371976] Constructing transport for test connection socket
+00:45:18.859 Xcode[32829:3371976] Connected socket 51 to testmanagerd for Sim iPhone 11 Pro
+00:45:18.867 Xcode[32829:3371887] Received connection for test runner session
+00:45:18.867 Xcode[32829:3371887] Listening for proxy connection request from the test bundle
+00:45:18.868 Xcode[32829:3370604] Test runner session acquired connection.
+00:45:18.868 Xcode[32829:3371887] Initiating session with identifier: D424ACEE-0320-4D78-900E-804F3B699DC9
+00:45:18.868 Xcode[32829:3370604] Waiting for test process to launch.
+00:45:32.411 Xcode[32829:3372130] Got reply to session initiation request with identifier D424ACEE-0320-4D78-900E-804F3B699DC9 (result:error): 30: (null)
+00:45:33.767 Xcode[32829:3370604] Finished requesting crash reports. Continuing with testing.
+00:45:33.832 Xcode[32829:3370604] Launch session started.
+00:45:33.926 Xcode[32829:3370604] Sending notification: NSConcreteNotification 0x7f919d204ff0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "74B34A3E-828A-4203-8E54-E08073D6280E";
+}}
+00:45:33.927 Xcode[32829:3372130] 📱<DVTiPhoneSimulator (0x7f919a069cd0), iPhone 11 Pro, unknown class, 13.3 (17C45), 74B34A3E-828A-4203-8E54-E08073D6280E> claim LaunchSessionClaim_0x7f919cb22ed0 on simulator was issued, 2 claims exist.
+00:45:33.946 Xcode[32829:3370604] Sending notification: NSConcreteNotification 0x7f919b05a7d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "74B34A3E-828A-4203-8E54-E08073D6280E";
+}}
+00:45:33.946 Xcode[32829:3372613] 📱<DVTiPhoneSimulator (0x7f919a069cd0), iPhone 11 Pro, unknown class, 13.3 (17C45), 74B34A3E-828A-4203-8E54-E08073D6280E> claim LaunchSessionClaim_0x7f919cb22ed0 on simulator was issued, 2 claims exist.
+00:45:33.946 Xcode[32829:3372613] 74B34A3E-828A-4203-8E54-E08073D6280E: Registered for sim device notification, got token 8
+00:45:33.947 Xcode[32829:3372490] 74B34A3E-828A-4203-8E54-E08073D6280E: Unregistering for sim device notification with token 8
+00:45:33.949 Xcode[32829:3372490] 74B34A3E-828A-4203-8E54-E08073D6280E: Spawning executable at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest and options: {
+    arguments =     (
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest",
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    binpref = "x86_64";
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FALLBACK_FRAMEWORK_PATH" = "";
+        "DYLD_FRAMEWORK_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        "SWIFTUI_VIEW_DEBUG" = 287;
+        XCTestConfigurationFilePath = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Logs/Test/Test-ServerSwift-Package-2019.12.16_00-45-06-+0900.xcresult/Staging/1_Test/Diagnostics/ServerSwiftTests-8FEFED3E-182D-4043-9A20-7F0890C15B3D/ServerSwiftTests-3F67D173-6DA2-4C56-BC48-607BD96859CF/LaunchSessions/D424ACEE-0320-4D78-900E-804F3B699DC9/remote-container/tmp/ServerSwiftTests-D424ACEE-0320-4D78-900E-804F3B699DC9.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = 60;
+    stdin = 58;
+    stdout = 59;
+    "wait_for_debugger" = 1;
+}
+00:45:33.999 Xcode[32829:3372130] 74B34A3E-828A-4203-8E54-E08073D6280E: Spawned executable at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest with options: {
+    arguments =     (
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest",
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    binpref = "x86_64";
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FALLBACK_FRAMEWORK_PATH" = "";
+        "DYLD_FRAMEWORK_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        "SWIFTUI_VIEW_DEBUG" = 287;
+        XCTestConfigurationFilePath = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Logs/Test/Test-ServerSwift-Package-2019.12.16_00-45-06-+0900.xcresult/Staging/1_Test/Diagnostics/ServerSwiftTests-8FEFED3E-182D-4043-9A20-7F0890C15B3D/ServerSwiftTests-3F67D173-6DA2-4C56-BC48-607BD96859CF/LaunchSessions/D424ACEE-0320-4D78-900E-804F3B699DC9/remote-container/tmp/ServerSwiftTests-D424ACEE-0320-4D78-900E-804F3B699DC9.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/DerivedData/ServerSwift/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = 60;
+    stdin = 58;
+    stdout = 59;
+    "wait_for_debugger" = 1;
+} (pid = 33083)
+00:45:34.000 Xcode[32829:3372130] 📱<DVTiPhoneSimulator (0x7f919a069cd0), iPhone 11 Pro, unknown class, 13.3 (17C45), 74B34A3E-828A-4203-8E54-E08073D6280E> tracking pid 33083
+00:45:34.000 Xcode[32829:3372130] 📱<DVTiPhoneSimulator (0x7f919a069cd0), iPhone 11 Pro, unknown class, 13.3 (17C45), 74B34A3E-828A-4203-8E54-E08073D6280E> checking to see if pid 33083 is valid: kill(pid, 0) = 0 (YES, it's still running)
+00:45:34.038 Xcode[32829:3370604] 74B34A3E-828A-4203-8E54-E08073D6280E: Registered for sim device notification, got token 10
+00:45:34.038 Xcode[32829:3371887] 74B34A3E-828A-4203-8E54-E08073D6280E: Unregistering for sim device notification with token 10
+00:45:34.810 Xcode[32829:3370604] Test process runnable PID is 33083.
+00:45:38.113 Xcode[32829:3370604] Waiting for test process to check in..., will wait up to 120s
