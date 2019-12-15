@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "325ec75cf0d257673af358c004c5cc12"
-build_time: [1576424661, 835267000]
-inputs:
-  "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/Sources/ServerSwift/ServerSwift.swift": [1576424606, 64368895]
-  "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/Sources/ServerSwift/HTTP.swift": [1576424373, 971487993]
-  "/Users/fumiyatanaka/SwiftDir/Mine/ServerSwift/Sources/ServerSwift/HTTPServer.swift": [1576424363, 257812594]
