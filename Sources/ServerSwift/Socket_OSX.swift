@@ -1,6 +1,8 @@
 import Foundation
 
-class Socket {
+class Socket_OSX {
+    
+    private static let SOCKET_MAC_BACKLOG = 50
     
     var config: Config?
     var socketfd: UInt32?
@@ -19,6 +21,8 @@ class Socket {
             self.hostname = hostname
             self.port = port
         }
+        
+        
     }
     
     init(_ config: Config) throws {
@@ -27,8 +31,25 @@ class Socket {
         let socketfd = Darwin.socket(config.protocolFamily.value, config.protocolType.value, config.socketProtocol.value)
         
         if socketfd < 0 {
-            throw Error(message: "Negative socketfd is returned.")
+            throw Error(message: "Negative socketfd was returned.")
         }
+        
+        self.socketfd = UInt32(socketfd)
+    }
+    
+    public func bind(_ path: String, backlog: Int) throws {
+        guard let socketfd = socketfd else {
+            throw Error(message: "No socketfd was found.")
+        }
+        
+        guard let config = config else {
+            throw Error(message: "Need to set config before bind.")
+        }
+        
+        // unlink path just in case path exists.
+        _ = Darwin.unlink(path)
+        
+        
     }
     
     enum ProtocolFamily {
@@ -110,7 +131,7 @@ class Socket {
     
 }
 
-extension Socket {
+extension Socket_OSX {
     struct Error: Swift.Error {
         
         // TODO: need to declare ErrorCode.
