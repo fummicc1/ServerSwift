@@ -8,6 +8,8 @@ final class ServerSwiftTests: XCTestCase {
         try? server.listen(on: 8080, address: "localhost")
     }
 
+    
+    
     static var allTests = [
         ("testExample", testTCPConnection),
     ]
