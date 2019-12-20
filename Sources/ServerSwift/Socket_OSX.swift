@@ -2,7 +2,7 @@ import Foundation
 
 class Socket_OSX {
     
-    private static let SOCKET_MAC_BACKLOG = 50
+    private static let SOCKET_MAX_BACKLOG = 50
     
     var config: Config?
     var socketfd: UInt32?
@@ -37,7 +37,8 @@ class Socket_OSX {
         self.socketfd = UInt32(socketfd)
     }
     
-    public func bind(_ path: String, backlog: Int) throws {
+    // bind is a process of socket connection.
+    public func bind(_ path: String, backlog: Int = Socket_OSX.SOCKET_MAX_BACKLOG) throws {
         guard let socketfd = socketfd else {
             throw Error(message: "No socketfd was found.")
         }
@@ -48,6 +49,52 @@ class Socket_OSX {
         
         // unlink path just in case path exists.
         _ = Darwin.unlink(path)
+        
+        var hint: addrinfo = addrinfo(
+            ai_flags: AI_PASSIVE,
+            ai_family: config.protocolFamily.value,
+            ai_socktype: config.socketProtocol.value,
+            ai_protocol: config.protocolType.value,
+            ai_addrlen: 0,
+            ai_canonname: nil,
+            ai_addr: nil,
+            ai_next: nil
+        )
+        
+        guard let port = config.port else {
+            throw Error(message: "No Port.")
+        }
+        
+        var targetInfo: UnsafeMutablePointer<addrinfo>?
+        
+        let status = getaddrinfo(nil, String(port), &hint, &targetInfo)
+        
+        guard status == 0 else {
+            throw Error(message: "failed to get addrinfo.")
+        }
+        
+        // clean up memory of targetInfo.
+        defer {
+            if targetInfo != nil {
+                freeaddrinfo(targetInfo)
+            }
+        }
+        
+        var info = targetInfo
+        var bounds: Bool = false
+        
+        while info != nil {
+            if Darwin.bind(Int32(socketfd), info!.pointee.ai_addr, info!.pointee.ai_addrlen) == 0 {
+                bounds = true
+                break
+            }
+            
+            info = info!.pointee.ai_next
+        }
+        
+        if bounds == false {
+            throw Error(message: "not able to bind to an address.")
+        }
         
         
     }
@@ -106,7 +153,7 @@ class Socket_OSX {
         }
     }
     
-    /// storing socket data with enum associated value
+    /// Address stores socket data with enum associated value
     enum Address {
         // sockaddr_in
         case ipv4(sockaddr_in)
